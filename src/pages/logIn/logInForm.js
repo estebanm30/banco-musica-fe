@@ -1,6 +1,9 @@
 import React from "react";
+import {} from "react-hook-form"
 
 const LogInForm = () => {
+
+
   return (
     <div>
       <h1>Ingresar a mi pefil</h1>
@@ -23,7 +26,7 @@ const LogInForm = () => {
             placeholder="Ingrese su contraseña"
             ></input>
         </p>
-        <button>Ingresar</button>
+        <input type="submit" value="Ingresar"></input>
       </form>
     </div>
   );
